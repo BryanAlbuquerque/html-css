@@ -1,0 +1,57 @@
+body {
+    border-radius: 20px;
+    background-color: #020d18;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #020d18;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+    top: -10px;
+    color: #ccc;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 900px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.search-container button {
+    padding: 10px 10px;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background: transparent;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    transform: translate(-60px);
+}
+
+.search-container button:hover {
+    background: #ffffff;
+    color: black;
+}
