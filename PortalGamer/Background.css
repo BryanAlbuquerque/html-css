@@ -1,11 +1,10 @@
 body {
     border-radius: 20px;
-    background-color: #020d18;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    background-image: ;
 }
-
 
 body::-webkit-scrollbar {
     width: 5px;
