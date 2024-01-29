@@ -1,9 +1,8 @@
 body {
     border-radius: 20px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #020d18;
     overflow-x: hidden;
-    background-image: ;
 }
 
 body::-webkit-scrollbar {
